@@ -38,16 +38,16 @@
                 </ul>
             </nav>
             <!--contacts-->
-            
+    
             <ul class="list nav-mail-phone">
-
+    
                 <li class="nav-list-item">
                     <a class="link nav-link tel-mail-head" href="mailto:info@devstudio.com">
                         <svg class="social-icons-mails">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>info@devstudio.com</a>
                 </li>
-
+    
                 <li class="nav-list-item">
                     <a class="link nav-link tel-mail-head" href="tel:+380961111111">
                         <svg class="social-icons-phone">
@@ -55,7 +55,7 @@
                         </svg>+38 096 111 11 11</a>
                 </li>
             </ul>
-            
+    
         </div>
     </header>
 
@@ -64,7 +64,7 @@
         <section class="section-hero hero-background">
             <div class="container text-button-center">
                 <h1 class="hero-text">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br>ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <button class="text-button" type="button">Заказать услугу</button>
+                <button data-modal-open class="text-button" type="button">Заказать услугу</button>
             </div>
 
         </section>
@@ -143,13 +143,16 @@
                 <ul class="list team-img">
                     <li class="team-img-margin-photo">
                         <img src="./images/box1.jpg" alt="программист пишет код" width="370" height="294">
+                        <div class="image-cover">Десктопные приложения</div>
                     </li>
                     <li class="team-img-margin-photo">
                         <img src="./images/box2.jpg" alt="человек проверяет работу программы на телефоне" width="370"
                             height="294">
+                        <div class="image-cover">Десктопные приложения</div>
                     </li>
                     <li class="team-img-margin-photo">
                         <img src="./images/box3.jpg" alt="человек выбирает цвет" width="370" height="294">
+                        <div class="image-cover">Десктопные приложения</div>
                     </li>
                 </ul>
             </div>
@@ -519,6 +522,25 @@
         </div>
        
     </footer>
+
+    <!-------- modal window -------->
+    <div data-modal class="backdrop" >
+        <div class="modal">
+            <button data-modal-close class="close-button-wrap" type="button">
+                <svg class="#">
+                    <use href="./images/icons.svg#close-black-x"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <!-------- java scripts -------->
+    <script src="./js/modal.js"></script>
+    <!-- <div>
+        <div>
+
+        </div>
+    </div> -->
+
 </body>
 
 </html>
