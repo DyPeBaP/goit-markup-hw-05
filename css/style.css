@@ -31,6 +31,7 @@ img {
 
 .address {
   font-style: normal;
+  margin-top: 20px;
 }
 
 .body-front-family {
@@ -101,6 +102,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-mail-head {
@@ -112,7 +114,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .nav-link:not(:last-child) {
   margin-left: auto;
   margin-right: 50px;
@@ -130,21 +134,18 @@ img {
 .nav-link:focus,
 .nav-link:hover {
   color: #2196f3;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:focus .social-icons-mails,
 .nav-link:hover .social-icons-mails {
   fill: #2196f3;
   color: #2196f3;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:focus .social-icons-phone,
 .nav-link:hover .social-icons-phone {
   fill: #2196f3;
   color: #2196f3;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-phone {
@@ -152,6 +153,7 @@ img {
   height: 16px;
   fill: #757575;
   margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-mails {
@@ -159,6 +161,7 @@ img {
   height: 12px;
   fill: #757575;
   margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-list .navigation-item {
@@ -229,12 +232,12 @@ img {
   background-color: #2196f3;
   padding: 10px 32px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text-button:hover,
 .text-button:focus {
   background-color: #188ce8;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*======END HERO======*/
@@ -311,7 +314,7 @@ img {
 
 .team-img-margin-photo {
   flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .team-img-margin {
@@ -404,6 +407,7 @@ img {
 
 .tel-mail-footer {
   color: #ffffff99;
+  margin-top: 9px;
 }
 .tel-mail-margin {
   margin-top: 9px;
@@ -555,6 +559,7 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links-item {
@@ -568,7 +573,6 @@ img {
 .social-links:hover .social-links-item {
   fill: #ffffff;
   background-color: #2196f3;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-main-w-h {
@@ -614,17 +618,18 @@ img {
 .social-icon-footer {
   width: 20px;
   height: 20px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links-footer:focus .social-icon-border,
 .social-links-footer:hover .social-icon-border {
   background-color: #2196f3;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links-item {
   width: 20px;
   height: 20px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*===END SVG===*/
 
